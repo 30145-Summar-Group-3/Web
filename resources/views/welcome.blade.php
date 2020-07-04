@@ -5,41 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Summer Training</title>
-
+  
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <!-- Styles
-
+        <!-- Styles-->  
+        <link rel="stylesheet" href="{{URL::asset('css/app.css')}}" media="all" />
+        <link rel="stylesheet" href="{{URL::asset('css/style.css')}}" media="all" />
         <link type="text/css" rel="stylesheet" href="https://cdn.phpjabbers.com/css/main.min.css?v=1.0.85" media="all" />
-      -->  <link rel="stylesheet" href="{{URL::asset('css/app.css')}}" media="all" />
-      <link rel="stylesheet" href="{{URL::asset('css/style.css')}}" media="all" />
-       
+ 
      
     </head>
     <body>
-       <!--  <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                    <a href="{{ url('/admin/login') }}">Login as supervisor</a>
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Practical Training
-                </div>
-            </div>
-        </div>  -->
+      
 
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
