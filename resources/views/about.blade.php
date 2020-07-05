@@ -47,7 +47,7 @@
                 <h3>Huzaifa AlAhmad</h3>
                 <h3>Ahmed AlEnizy</h3>
                 <h3>Faisal Bahashwan</h3>
-                <h3>Turki AlOtaibi</h3>
+                <h3>Turki Alotaibi</h3>
                 <h3>Abdulrahman Almohanna</h3>
             </div>
         </div>
