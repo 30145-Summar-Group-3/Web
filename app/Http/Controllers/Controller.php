@@ -19,13 +19,24 @@ class Controller extends BaseController
         $name = $req ->input('name');
         $collage = $req ->input('collage');
         $email = $req ->input('email');
+        $earned_hours = $req ->input('earned_hours');
         
-        $data = array('name'=>$name, 'collage'=>$collage, 'email'=>$email);
+       
+        if ($earned_hours < 81)
+        {
+            echo'you are not eligible for trainning';
 
-        DB::table('students')->insert ($data);
+        }
 
-        echo'you have successfully registered';
+        else
+        {
+            $data = array('name'=>$name, 'collage'=>$collage, 'email'=>$email, 'earned_hours'=>$earned_hours);
 
+            DB::table('students')->insert ($data);
+
+            echo'you have successfully registered';
+
+        }
    
 
     }

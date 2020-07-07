@@ -18,6 +18,7 @@ class CreateStudentsTable extends Migration
             $table->string('name');
             $table->string('collage');
             $table->string('email');
+            $table->integer('earned_hours');
             $table->string('password');
             $table->timestamps();
         });

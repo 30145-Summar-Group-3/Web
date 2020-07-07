@@ -27,7 +27,7 @@
               
 
 
-                    <h1>Welcon In Your Training Group ...</h1>
+                    <h1>Welcome In Your Training Group ...</h1>
                     <h3><b>The Registration was Successful</b></h3>
                     <p>We hope to continue by submitting the form 
                         from the link belwo for registration in training </p>

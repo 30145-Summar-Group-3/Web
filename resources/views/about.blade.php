@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Training Group Website</title>
+        <title>Training Group Website </title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -47,7 +47,7 @@
                 <h3>Huzaifa AlAhmad</h3>
                 <h3>Ahmed AlEnizy</h3>
                 <h3>Faisal Bahashwan</h3>
-                <h3>Turki AlOtaibi</h3>
+                <h3>Turki Alotaibi</h3>
                 <h3>Abdulrahman Almohanna</h3>
             </div>
         </div>
