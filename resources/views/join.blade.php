@@ -81,6 +81,24 @@
 						</div>
                         </td>
                     </tr>
+                    <tr>      
+                        <td> 
+                        <div class="formRow">
+							<label for="frmHeaderLoginEmail" class="formLabel">
+								<i class="ico icoMail"></i>
+							</label>
+					
+							<div class="formControls">
+								<input type="intger" class="field" id="frmHeaderLoginEmail" name="earned_hours" placeholder="Earned hours" data-msg-required="Earned hours is required" data-msg-email="Please enter a valid Earned hours."  />
+                                @error('earned_hours')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+						</div>
+                        </td>
+                    </tr>
                     
                     <tr>
                         <td> 
