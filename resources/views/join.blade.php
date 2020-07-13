@@ -48,7 +48,7 @@
                         <td> 
                         <div class="formRow">
 							<label for="frmHeaderLoginEmail" class="formLabel">
-								<i class="ico icoCollage"></i>
+								<i class="ico icoPeople"></i>
 							</label>
 					
 							<div class="formControls">
@@ -85,7 +85,7 @@
                         <td> 
                         <div class="formRow">
 							<label for="frmHeaderLoginEmail" class="formLabel">
-								<i class="ico icoMail"></i>
+								<i class="ico icoGrade"></i>
 							</label>
 					
 							<div class="formControls">
