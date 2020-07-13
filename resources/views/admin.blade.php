@@ -25,7 +25,8 @@
 
                     <h1>Join As Admin</h1>
 
-                    <a href="{{ url('/admin/dashboard') }}">To Estimate Student grades</a>
+                    <a href="{{ url('/admin/dashboard') }}">To Estimate Student Grades</a><p>
+                    <a href="http://127.0.0.1:8000/sendemail">Send Email</a>
 
 
                 </div>

@@ -37,3 +37,10 @@ Route::get('/admin', 'AdminController@index')->name('admin');
 Route::get('/join', 'JoinController@index')->name('join');
 
 Route::post('/insert','Controller@insert');
+
+Route::get('/sendemail', 'SendEmailController@index');
+Route::post('/sendemail/send', 'SendEmailController@send');
+
+
+
+?>
