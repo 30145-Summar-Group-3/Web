@@ -1,7 +1,4 @@
 
- <!--<link rel="stylesheet" href="{{URL::asset('css/style.css')}}" media="all" />
-  <link rel="stylesheet" href="{{URL::asset('css/app.css')}}" media="all" />
-   -->
 @extends('layouts.app')
 
 @section('content')
