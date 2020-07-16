@@ -33,7 +33,7 @@
                             <a href="{{ route('register') }}">Register</a>
                         @endif
                     @endauth
-                    <a href="{{ url('/admin/login') }}">Login as supervisor</a>
+                    <a href="{{ url('/admin/login') }}">Login as Admin</a>
 
                 </div>
             @endif

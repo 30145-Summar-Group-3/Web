@@ -1,4 +1,4 @@
-<!-- <link rel="stylesheet" href="{{URL::asset('css/style.css')}}" media="all" />    -->
+
 
 @extends('layouts.app')
 

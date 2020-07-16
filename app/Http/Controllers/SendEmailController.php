@@ -18,7 +18,7 @@ class SendEmailController extends Controller
         
     public function index()
     {
-     return view('send_email');
+     return view('sendemail');
     }
 
     function send(Request $request)

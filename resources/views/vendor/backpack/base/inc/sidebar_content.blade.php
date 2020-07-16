@@ -2,3 +2,4 @@
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('dashboard') }}"><i class="la la-home nav-icon"></i> {{ trans('backpack::base.dashboard') }}</a></li>
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('student') }}'><i class='nav-icon la la-question'></i> Students</a></li>
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('grade') }}'><i class='nav-icon la la-question'></i> Grades</a></li>
+<li class='nav-item'><a class='nav-link' href='{{ backpack_url('sendemail') }}'><i class='nav-icon la la-question'></i> Send Email</a></li>
